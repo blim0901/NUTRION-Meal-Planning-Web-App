@@ -1,0 +1,34 @@
+﻿{
+    "meals": [
+        {
+            "id": 282535,
+            "imageType": "jpg",
+            "title": "Breakfast Banana Split",
+            "readyInMinutes": 10,
+            "servings": 1,
+            "sourceUrl": "http://www.kraftrecipes.com/recipes/breakfast-banana-split-55491.aspx"
+        },
+        {
+            "id": 594476,
+            "imageType": "jpg",
+            "title": "Alfredo Pasta with Cajun Spiced Chicken",
+            "readyInMinutes": 25,
+            "servings": 4,
+            "sourceUrl": "http://www.tablefortwoblog.com/alfredo-pasta-with-cajun-spiced-chicken/"
+        },
+        {
+            "id": 416692,
+            "imageType": "jpg",
+            "title": "Chicken Spareribs",
+            "readyInMinutes": 35,
+            "servings": 4,
+            "sourceUrl": "http://www.tasteofhome.com/Recipes/chicken-spareribs"
+        }
+    ],
+    "nutrients": {
+        "calories": 1999.87,
+        "protein": 102.53,
+        "fat": 87.52,
+        "carbohydrates": 201.98
+    }
+}

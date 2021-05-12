@@ -1,0 +1,17 @@
+.mealplanBox{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.mealplanImg{
+    width:inherit;
+    height:inherit;
+    object-fit: cover;
+}

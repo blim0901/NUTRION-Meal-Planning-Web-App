@@ -1,0 +1,30 @@
+.pb-container .pb-button {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff !important;
+    transition: 0.3s;
+    padding: 0;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 10px;
+  }
+
+.pb-container .pb-button:hover {
+    background-color: #3F3F3F;
+    background: #3F3F3F radial-gradient(circle, transparent 0.5%, #3F3F3F 0.5%) center/15000%;
+}
+
+.pb-container .pb-button:active {
+    background-color: #AAA;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.pb-container{
+    width: 140px;
+    height: 40px;
+}

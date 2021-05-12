@@ -1,0 +1,91 @@
+.first-dish-container{
+    margin: 50px 0;
+}
+
+.DishDetail{
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-size: 20px;
+    width:auto;
+    
+}
+
+.DishDetail h2{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.Ingredients h2 {
+    margin: 0;
+}
+
+.DishDetail p{
+    text-align: justify;
+    font-size:16px;
+}
+
+.DishDetail a
+{
+    font-size:24px;
+    color:#737373
+}
+
+.DishDetail a:active,.DishDetail a:focus,.DishDetail a:hover
+{
+  color:#ffc46c;
+  text-decoration:none;
+}
+
+.DishDetailImg{
+    float:left;
+    width:auto;
+    object-fit: cover;
+}
+
+.DishTimePaxIngList{
+    list-style-type: none;
+    font-size: 24px;
+    padding:20px;
+    margin-left: auto;
+}
+
+
+.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+
+.DishNutritionList{
+    border: 1px solid #737373;
+}
+
+.nutrition-data{
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+
+.nutrition-title{
+    font-size:15px;
+}
+
+.DishNutritionItem{
+    padding: 10px;;
+}
+
+.dishTags{
+    margin-top:10px;
+}
+.dishTags h5{
+    font-weight: 800;
+}
+
+.FavButton{
+    margin:10px;
+}
+
+.ingredientList ul{
+    columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: none;
+}

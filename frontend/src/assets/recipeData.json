@@ -1,0 +1,157 @@
+﻿{
+    "results": [
+        {
+            "id": 654883,
+            "title": "Pasta Vegetable Soup",
+            "image": "https://spoonacular.com/recipeImages/654883-312x231.jpg",
+            "imageType": "jpg",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "title": "Calories",
+                        "amount": 142.864,
+                        "unit": "kcal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 654835,
+            "title": "Pasta e Fagioli (Pasta and Beans)",
+            "image": "https://spoonacular.com/recipeImages/654835-312x231.jpg",
+            "imageType": "jpg",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "title": "Calories",
+                        "amount": 187.132,
+                        "unit": "kcal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 654797,
+            "title": "Pasta A La Lydia (Halloween Inspired)",
+            "image": "https://spoonacular.com/recipeImages/654797-312x231.jpg",
+            "imageType": "jpg",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "title": "Calories",
+                        "amount": 184.577,
+                        "unit": "kcal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 654887,
+            "title": "Pasta Shells With Ricotta Cheese Stuffing",
+            "image": "https://spoonacular.com/recipeImages/654887-312x231.jpg",
+            "imageType": "jpg",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "title": "Calories",
+                        "amount": 141.232,
+                        "unit": "kcal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 663813,
+            "title": "Tricolor Rotini pasta Salad",
+            "image": "https://spoonacular.com/recipeImages/663813-312x231.jpg",
+            "imageType": "jpg",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "title": "Calories",
+                        "amount": 145.585,
+                        "unit": "kcal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 652610,
+            "title": "Mushroom & Sundried Tomato Pasta",
+            "image": "https://spoonacular.com/recipeImages/652610-312x231.jpg",
+            "imageType": "jpg",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "title": "Calories",
+                        "amount": 162.32,
+                        "unit": "kcal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 650654,
+            "title": "Make Olive Garden’s Delicious Pasta Fagioli At Home",
+            "image": "https://spoonacular.com/recipeImages/650654-312x231.jpg",
+            "imageType": "jpg",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "title": "Calories",
+                        "amount": 167.172,
+                        "unit": "kcal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 640708,
+            "title": "Creamy Squash Orzo",
+            "image": "https://spoonacular.com/recipeImages/640708-312x231.jpg",
+            "imageType": "jpg",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "title": "Calories",
+                        "amount": 98.6474,
+                        "unit": "kcal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 663696,
+            "title": "Tortellini In Brodo",
+            "image": "https://spoonacular.com/recipeImages/663696-312x231.jpg",
+            "imageType": "jpg",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "title": "Calories",
+                        "amount": 71.0008,
+                        "unit": "kcal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 662669,
+            "title": "Swiss Chard Linguine",
+            "image": "https://spoonacular.com/recipeImages/662669-312x231.jpg",
+            "imageType": "jpg",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "title": "Calories",
+                        "amount": 71.5841,
+                        "unit": "kcal"
+                    }
+                ]
+            }
+        }
+    ],
+    "offset": 0,
+    "number": 10,
+    "totalResults": 15
+}

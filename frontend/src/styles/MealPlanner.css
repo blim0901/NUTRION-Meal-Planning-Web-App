@@ -1,0 +1,221 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+.tab-button{
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.active-tab-button{
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+
+.tab-button:hover {
+    background-color: #3F3F3F;
+    background: #3F3F3F radial-gradient(circle, transparent 0.5%, #3F3F3F 0.5%) center/15000%;
+}
+
+.tab-button:active {
+    background-color: #AAA;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.wrapMP {
+  display: flex;
+  background: #E5E5E5;
+}
+
+.left {
+  background: black;
+  flex-basis: 20%;
+  border-radius: 0 15px 0 0;
+  margin-top: 1%;
+}
+.left .FavouriteList::-webkit-scrollbar {
+	display: none;
+  }
+
+.left .FavouriteList{ 
+	overflow: auto;
+	height: 80vh;
+}
+  
+.right::-webkit-scrollbar {
+	display: none;
+  }
+
+.left a{
+	color:#8d8d8d;
+	margin:15px;
+	font-size: 20px;
+}
+.left .active a{
+	color:#fefff9 !important;
+	text-decoration: underline;
+	margin:15px;
+}
+
+.left h4{
+	margin:15px;
+}
+
+.right {
+  
+  flex-basis: 80%;
+  
+  height: 100vh; 
+  overflow: auto;
+}
+
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;
+}
+
+#content { 
+	min-height: 400px; 
+	margin: 0 20px 0 20px;
+	min-width: 1000px;
+}
+
+.tabs { 
+	list-style: none; 
+	margin: 10px 0 auto; 
+	width: 380px;
+}
+
+.tabs li { 
+	/* Makes a horizontal row */
+	float: left; 
+	
+	/* So the psueudo elements can be
+		abs. positioned inside */
+	position: relative; 
+}
+
+.tabs a { 
+	/* Make them block level
+		and only as wide as they need */
+	float: left; 
+	padding: 10px 40px; 
+	text-decoration: none;
+	
+	/* Default colors */ 
+	color: white;
+	background: #222; 
+	
+	/* Only round the top corners */
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px; 
+}
+.tabs .active {
+	/* Highest, active tab is on top */
+	z-index: 3;
+}
+.tabs .active a { 
+	/* Colors when tab is active */
+	background: white; 
+	color: black; 
+}
+.tabs li:before, .tabs li:after, 
+.tabs li a:before, .tabs li a:after {
+	/* All pseudo elements are 
+		abs. positioned and on bottom */
+	position: absolute;
+	bottom: 0;
+}
+/* Only the first, last, and active
+	tabs need pseudo elements at all */
+.tabs li:last-child:after,   .tabs li:last-child a:after,
+.tabs li:first-child:before, .tabs li:first-child a:before,
+.tabs .active:after,   .tabs .active:before, 
+.tabs .active a:after, .tabs .active a:before {
+	content: "";
+}
+.tabs .active:before, .tabs .active:after {
+	background: white; 
+	
+	/* Squares below circles */
+	z-index: 1;
+}
+/* Squares */
+.tabs li:before, .tabs li:after {
+	background: #222;
+	width: 10px;
+	height: 10px;
+}
+.tabs li:before {
+	left: -10px;      
+}
+.tabs li:after { 
+	right: -10px;
+}
+/* Circles */
+.tabs li a:after, .tabs li a:before {
+	width: 20px; 
+	height: 20px;
+	/* Circles are circular */
+	-webkit-border-radius: 10px;
+	-moz-border-radius:    10px;
+	border-radius:         10px;
+	background: #E5E5E5;
+	
+	/* Circles over squares */
+	z-index: 2;
+}
+.tabs .active a:after, .tabs .active a:before {
+	background: #222;
+}
+/* First and last tabs have different
+	outside color needs */
+.tabs li:first-child.active a:before,
+.tabs li:last-child.active a:after {
+	background: #E5E5E5;
+}
+.tabs li a:before {
+	left: -20px;
+}
+.tabs li a:after {
+	right: -20px;
+}
+
+.button-row{
+	margin:10px 20px 10px 10px;
+}
+
+.left .searchInput{
+	width:80%;
+}
+
+.left .search-main{
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.left .loading-text{
+	color:#fefff9;
+}

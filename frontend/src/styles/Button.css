@@ -1,0 +1,28 @@
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button{
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #3F3F3F;
+    background: #3F3F3F radial-gradient(circle, transparent 0.5%, #3F3F3F 0.5%) center/15000%;
+}
+
+.button:active {
+    background-color: #AAA;
+    background-size: 100%;
+    transition: background 0s;
+}

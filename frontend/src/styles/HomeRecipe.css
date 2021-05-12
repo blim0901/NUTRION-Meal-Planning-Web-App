@@ -1,0 +1,54 @@
+.home-recipe-container .dish-anchor{
+    color: black;
+}
+
+.home-recipe-container .recipeBox{
+    margin: 20px;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    float:left;
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    cursor:pointer;
+    color: black;
+
+}
+.home-recipe-container .recipeBox:hover{
+    background: transparent;
+    display: block;
+    text-decoration: none;
+    background-color: #fffef6;
+    border: black solid 0.5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.home-recipe-container .recipeBox h2{
+    width:200px;
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.home-recipe-container .recipeBox p{
+    width:200px;
+    font-weight: 400;
+}
+
+.home-recipe-container .recipeImg{
+    border-radius: 25px;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+    .recipeBox{
+        padding: 10px;
+    }
+}

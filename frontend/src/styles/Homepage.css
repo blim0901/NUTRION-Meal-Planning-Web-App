@@ -1,0 +1,60 @@
+HomeSearch{
+    margin-top: 50px;
+}
+
+.Homepage-container{
+    background-image: url("../assets/images/homepage-bg.jpg");
+    background-size: 100%;
+}
+
+.recipeRecTitle{
+    margin-top: 70px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.recipeRecDesc{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.line {
+    display: inline-block;
+    border-top: 1px solid black;
+    width: 80%;
+  }
+
+.mealplan-container{
+    border-radius: 25px;
+    border:2px solid black;
+    width: fit-content;
+    height: fit-content;
+    float:none;
+    margin:2vh auto;
+}
+
+@media screen and (max-width: 900px) {
+    .recipeRecTitle{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 800;
+    }
+    
+    .recipeRecDesc{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+/* @media screen and (max-width: 550px) {
+    .recipeRecTitle{
+        font-size: 25px;
+        font-weight: 800;
+    }
+    
+    .recipeRecDesc{
+        font-size: 15px;
+        font-weight: 500;
+    }
+} */

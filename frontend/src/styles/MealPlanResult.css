@@ -1,0 +1,135 @@
+ .App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.meal-plan-main {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+.meal-plan-main .form-control {
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.nutrients ul {
+    display: flex;
+    width: 35rem;
+    justify-content: space-evenly;
+}
+
+.meal-plan-main ul {
+    list-style: none;
+}
+
+.instructions {
+    font-size: 1.3rem;
+}
+
+
+
+/* a:hover {
+    cursor: pointer;
+    background-color:#7776AB; 
+}  */
+
+
+@media only screenn and (max-width: 550px) {
+    .meals {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nutrients ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+/* html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+} */
+/* 
+.search-container{
+    height:80vh;
+}
+.searchImg{
+    width:100%;
+    height:100vh;
+    object-fit: cover;
+} */
+
+.searchBanner{
+    position:relative;
+    top:-60vh;
+    text-align: center;
+    z-index: 10;
+}
+
+.searchInput{
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    z-index: 10;
+    width:50%;
+    text-align: center;
+}
+
+/*SEARCH FORM*/
+.search-form {
+    border-radius: 30px 0px 0px 30px;
+    /*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+    height:fit-content;
+}
+ .search-btn {
+    border-radius: 0px 30px 30px 0px;
+    cursor:pointer;
+    margin:0;
+    
+    color:white;
+    background-color: black;
+    border-color: black;
+}
+
+.search-title{
+    font-family: 'Yesteryear', cursive;
+    font-size:7vw;
+    color:#fefff9;
+    z-index: 1;
+}
+
+.meal-plan-input {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .searchBanner{
+        position: relative;
+        top:-50vh;
+    }
+
+    .search-title{
+        font-size:12vw;
+    }
+
+    .searchInput{
+        width:80%;
+        text-align: center;
+    }
+  }
+
+
+  

@@ -1,0 +1,49 @@
+.favrecipeBox{
+    padding: 15px;
+    width: fit-content;
+    height: fit-content;
+    float:left;
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius: 25px;
+    background-color: #fefff9;
+    margin:0px 15px 15px 15px;
+    transition: 0.3s;
+}
+
+.favrecipeBox:active {
+    background-color: #AAA;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.favrecipeBox h2{
+    max-width: 100%;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom:0;
+}
+
+.favrecipeBox p{
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.favrecipeImg{
+    border-radius: 15px;
+    max-height: 100%;
+    min-height: 180px;
+    padding:0;
+    object-fit: cover;
+    margin:0;
+    width:100%;
+}
+
+@media screen and (max-width: 500px) {
+    .favrecipeBox{
+        padding: 10px;
+    }
+}

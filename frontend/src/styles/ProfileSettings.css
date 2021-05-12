@@ -1,0 +1,131 @@
+.settings-container {
+    /* border: 2px solid green; */
+    
+    background-color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: white 0.1px solid;
+    border-radius: 10px;
+    padding-bottom: 50px;
+/*     
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    padding: 15px;
+    
+    width: 55%; */
+    height: max-content;
+}
+
+.settings-container h1 {
+    padding: 0 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+.settings-container h1:after {
+    content:' ';
+    display:block;
+    border:2px solid black;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    box-shadow:inset 0 1px px rgba(0, 0, 0, .05);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.settings-container ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.settings-container li {
+    font-size: 25px;
+    list-style: none;
+    margin-top: 20px;
+    padding: 0 20px;
+    padding-right: 30px;
+}
+
+.settings-container a {
+    clear: both;
+    background: transparent;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 10px;
+    height: 80px;
+}
+
+.settings-container .picture-anchor {
+    height: 175px;
+}
+
+.settings-container a:hover {
+    background: transparent;
+    display: block;
+    text-decoration: none;
+    background-color: #fffef6;
+    border: black solid 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.settings-container h3 {
+    padding-top: 5px;
+    width: 250px;
+    float: left;
+}
+
+.items-settings {
+    padding-top: 3px;
+    display: block;
+    float: left;
+}
+
+.items-settings img {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.settings-container .edit-button {
+    float: right;
+    clear: right;
+}
+
+.settings-container .button {
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+}
+
+.input-settings {
+    width: 350px;
+}
+
+.upload-image {
+    padding: 50px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    clear: left;
+}
+
+
+.upload-image label {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.upload-image input {
+    font-size: 15px;
+    width: max-content;
+}
+
+.hide {
+    display: none;
+}

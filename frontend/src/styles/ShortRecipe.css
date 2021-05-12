@@ -1,0 +1,83 @@
+.short-recipe{
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    float:left;
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    cursor:pointer;
+    height: max-content;
+}
+
+.short-recipe:hover {
+    background: transparent;
+    display: block;
+    text-decoration: none;
+    background-color: #fffef6;
+    border: black solid 0.5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.recipeBox2 h2{
+    width:300px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom:0;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.recipeBox2 p{
+    width:200px;
+    font-weight: 400;
+}
+
+.recipeBox2 li{
+    margin-top: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.short-recipe .recipeImg{
+    border-radius: 15px;
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.short-recipe .recipeButton {
+    background-color: #212529; /* Green */
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.short-recipe .recipeButton:hover {
+    background-color: white; /* Green */
+    color: black;
+    border-radius: 5px;
+    border-width: 8px;
+}
+
+.short-recipe a {
+    color:black;
+}
+
+.heart-container {
+    margin: 0;
+    padding: 0;;
+}
+
+
+@media screen and (max-width: 500px) {
+    .recipeBox2{
+        padding: 10px;
+    }
+}

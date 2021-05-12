@@ -1,0 +1,51 @@
+.meal-container .recipeBox{
+    /* margin: 20px; */
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    float:left;
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    cursor:pointer;
+    color: black;
+}
+
+.meal-container .recipeBox:hover {
+    background: transparent;
+    display: block;
+    text-decoration: none;
+    background-color: #fffef6;
+    border: black solid 0.5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.meal-container .recipeBox h2{
+    width:300px;
+    font-weight: 800;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.meal-container .recipeBox p{
+    width:200px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.meal-container .recipeImg{
+    border-radius: 25px;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+    .recipeBox{
+        padding: 10px;
+    }
+}
