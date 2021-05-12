@@ -5,3 +5,13 @@ NUTRION is a self-contained web-based application which aims to aid health enthu
 
 NUTRION operates using the Django framework for backend web-development, and also React.js for frontend web-development. 
 
+Instructions to run files:
+1. install  nodejs
+2. "cd" into frontend/ or backend/ folder
+3. type "yarn install" in terminal
+4. wait
+5. for frontend, type "yarn start" to run
+    backend type "npm start"
+    
+ - for backend, copy env file into backend/ folder, before running the "npm start"
+
